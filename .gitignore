@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Supplied sealed evidence.
+# Integrity hash is in raw-events/source-manifest.json instead.
+raw-events/windows-replay.jsonl
+
+# Generated outputs (rebuild with make test)
+raw-events/full-run-*.json
+harness-report.json
+regression-results.xml
+
+# Wazuh lab: contains private keys and credentials
+detection-lab/wazuh-docker/
+*.pem
+*.key
+.env
+
+# Programme-private material
+*assignment*.pdf
+*overlay*.pdf
+
+# Submission-only paperwork
+integrity-attestation.md
+assessment-manifest.json
+continuity-record.md
+manifest.sha256
+video-url.txt
+README.txt
