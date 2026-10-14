@@ -1,0 +1,635 @@
+{
+  "result_hash": "fa9cd4f6778c16a9d8bba6a1204ee483d5482ef84ad6104376667de1b74b4d57",
+  "verdicts": [
+    {
+      "event_id": "EVT-14b4bf-00000000",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00000000",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00008198",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00008198",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00016396",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00016396",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00019230",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1059_001_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00019230",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00024594",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00024594",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00032792",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00032792",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00038460",
+      "rule_id": "T1003.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1003_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00038460",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00038460",
+      "rule_id": "T1059.003-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1059_003_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00038460",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00040990",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00040990",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00049188",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00049188",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00057386",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00057386",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00057690",
+      "rule_id": "T1003.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1003_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00057690",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00057690",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1218_011_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00065584",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00065584",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00073782",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00073782",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00076920",
+      "rule_id": "T1105-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "download_lolbin_child_of_scripting_host"
+    },
+    {
+      "event_id": "EVT-14b4bf-00081980",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00081980",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00090178",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00090178",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00096150",
+      "rule_id": "T1547.001-001",
+      "rule_version": "1.0.0",
+      "result": "alerted",
+      "reason_code": "reg_exe_child_of_cmd"
+    },
+    {
+      "event_id": "EVT-14b4bf-00098376",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00098376",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00106574",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00106574",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00114772",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00114772",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00115380",
+      "rule_id": "T1003.001-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1003_001_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00115380",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00115380",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00122970",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00122970",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00131168",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00131168",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00134610",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1059_001_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00134610",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00139366",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00139366",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00147564",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00147564",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00153840",
+      "rule_id": "T1003.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1003_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00153840",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00153840",
+      "rule_id": "T1059.003-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1059_003_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00153840",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00155762",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00155762",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00163960",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00163960",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00172158",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00172158",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00173070",
+      "rule_id": "T1003.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1003_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00173070",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00173070",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1218_011_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00180356",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00180356",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00188554",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00188554",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00192300",
+      "rule_id": "T1105-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "download_lolbin_child_of_scripting_host"
+    },
+    {
+      "event_id": "EVT-14b4bf-00196752",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00196752",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00204950",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00204950",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00211530",
+      "rule_id": "T1547.001-001",
+      "rule_version": "1.0.0",
+      "result": "alerted",
+      "reason_code": "reg_exe_child_of_cmd"
+    },
+    {
+      "event_id": "EVT-14b4bf-00213148",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00213148",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00221346",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00221346",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00229544",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00229544",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00230760",
+      "rule_id": "T1003.001-001",
+      "rule_version": "2.0.0",
+      "result": "alerted",
+      "reason_code": "known_t1003_001_execution_pattern"
+    },
+    {
+      "event_id": "EVT-14b4bf-00230760",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00230760",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00237742",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00237742",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00245940",
+      "rule_id": "T1059.001-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1059_001_set"
+    },
+    {
+      "event_id": "EVT-14b4bf-00245940",
+      "rule_id": "T1218.011-001",
+      "rule_version": "2.0.0",
+      "result": "suppressed",
+      "reason_code": "pattern_not_in_known_t1218_011_set"
+    }
+  ]
+}

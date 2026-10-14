@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "project_id": "SOC-A8",
+  "variant": "D3",
+  "candidate_binding": "UBI-2026-0210",
+  "assigned_pack": {
+    "file_name": "soc-analysis-stage-8-shared-b2.tar.gz",
+    "sha256": "75c476baac8b1c123522006e53053f766bd36baad4e3238223da67e12a53843c",
+    "manifest_signature": " b017b49460278261454c2702ec668f34ec8b7ac0e99bf588e3dd3587d7edd6bf",
+    "verified_before_use": true
+  },
+  "commit": "cd5bfdff6f80ffd166ce4fd21d3b431964349cc9",
+  "supported_environment": {
+    "os": "Ubuntu on WSL2, Ubuntu 24.04.4 LTS",
+    "cpu": 12,
+    "memory_gb": 16,
+    "tool_versions": {
+      "python": "3.12.3",
+      "pytest": "9.1.1",
+      "docker": "29.6.2",
+      "docker_compose": "5.3.1 (compatibility-adapter path only)"
+    }
+  },
+  "commands": {
+    "provision": "python3 -m pip install pytest --break-system-packages",
+    "build": "N/A -- interpreted Python pipeline, no build step",
+    "test": "python3 -m pytest tests/ -v && python3 -m pipeline.harness --fixtures fixtures/public-fixtures.json --junit-out regression-results.xml --json-out harness-report.json",
+    "clean": "rm -f regression-results.xml harness-report.json"
+  },
+  "results": {
+    "unit_tests": {
+      "passed": 30,
+      "failed": 0,
+      "report": "N/A -- pytest console output; no separate XML currently generated for unit tests specifically"
+    },
+    "acceptance_harness": {
+      "passed": 33,
+      "failed": 3,
+      "total_cases": 36,
+      "report": "regression-results.xml",
+      "known_failures": "P-DET-14, P-DET-33, P-DET-34 -- documented unsolvable structural collisions, see decision-log.md D-008 and coverage-matrix.csv"
+    },
+    "runtime_seconds": 27.28,
+    "peak_memory_mb": 23.31,
+    "output_hashes": {
+      "regression-results.xml": "32f7f7c95218d688e5d866bf0471bc4e35078e96db1cd336be50eaf49c07da60",
+      "harness-report.json": "65ec36a2a0ba7071b5040f49cb2fd27900d9cf0729e864ce9b4f90e1fb5cdc70)",
+      "coverage-matrix.csv": "5fe3cc6a766fa43cf2d96d109f03ded13023c24aeb6cff33461455b13184e7aa"
+    }
+  },
+  "inputs": [
+    "raw-events/windows-replay.jsonl",
+    "raw-events/source-manifest.json",
+    "fixtures/public-fixtures.json",
+    
+  ],
+  "outputs": [
+    "regression-results.xml",
+    "harness-report.json",
+    
+    
+  ],
+  "manual_preconditions": [
+    "Python 3.11 or newer available on PATH",
+    "pip install pytest --break-system-packages",
+    "windows-replay.jsonl present in raw-events/ with sha256 matching source-manifest.json before running any test"
+  ],
+  "known_limitations": [
+    "3 of 36 public fixtures (P-DET-14, P-DET-33, P-DET-34) produce unexpected_alert -- provably unsolvable with permitted signal, see decision-log.md D-008",
+    "6 of 12 rules (self-constructed techniques) have no real ground truth to validate against -- tested only against self-built synthetic fixtures with documented provenance"
+    "2 of the 8 harness-level mutations (T1053.005, T1136.001) are designed not to alert — they reproduce each rule's own documented static-allowlist rename blind spot. This is the honest floor of a schema with no usable command-line field, not an oversight."
+  ]
+}

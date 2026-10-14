@@ -1,0 +1,45 @@
+{
+  "interface_version": "1.0",
+  "project": "harness-edge-case-tests",
+  "schema_version": "1",
+  "fixtures": [
+    {
+      "case_id": "EDGE-NO-TELEMETRY-01",
+      "events": [
+        {
+          "channel": "security",
+          "event_code": 4688,
+          "event_id": 1,
+          "image": "cmd.exe",
+          "parent_image": "explorer.exe"
+        }
+      ],
+      "expected": "no_alert"
+    },
+    {
+      "case_id": "EDGE-PARSE-FAILURE-01",
+      "events": [
+        {
+          "channel": "sysmon",
+          "event_code": 1,
+          "event_id": 1,
+          "image": "powershell.exe"
+        }
+      ],
+      "expected": "alert"
+    },
+    {
+      "case_id": "EDGE-VALID-BASELINE-01",
+      "events": [
+        {
+          "channel": "sysmon",
+          "event_code": 1,
+          "event_id": 1,
+          "image": "chrome.exe",
+          "parent_image": "explorer.exe"
+        }
+      ],
+      "expected": "no_alert"
+    }
+  ]
+}

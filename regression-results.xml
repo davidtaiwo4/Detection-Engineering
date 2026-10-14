@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stage8_acceptance_harness" tests="36" failures="3" errors="0">
+  <testcase name="P-DET-01" classname="alert">
+  </testcase>
+  <testcase name="P-DET-02" classname="alert">
+  </testcase>
+  <testcase name="P-DET-03" classname="alert">
+  </testcase>
+  <testcase name="P-DET-04" classname="alert">
+  </testcase>
+  <testcase name="P-DET-05" classname="alert">
+  </testcase>
+  <testcase name="P-DET-06" classname="alert">
+  </testcase>
+  <testcase name="P-DET-07" classname="alert">
+  </testcase>
+  <testcase name="P-DET-08" classname="alert">
+  </testcase>
+  <testcase name="P-DET-09" classname="alert">
+  </testcase>
+  <testcase name="P-DET-10" classname="alert">
+  </testcase>
+  <testcase name="P-DET-11" classname="alert">
+  </testcase>
+  <testcase name="P-DET-12" classname="alert">
+  </testcase>
+  <testcase name="P-DET-13" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-14" classname="no_alert">
+    <failure message="expected=no_alert actual_classification=unexpected_alert">fired=['T1059.001-001', 'T1218.011-001']</failure>
+  </testcase>
+  <testcase name="P-DET-15" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-16" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-17" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-18" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-19" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-20" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-21" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-22" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-23" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-24" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-25" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-26" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-27" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-28" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-29" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-30" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-31" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-32" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-33" classname="no_alert">
+    <failure message="expected=no_alert actual_classification=unexpected_alert">fired=['T1003.001-001']</failure>
+  </testcase>
+  <testcase name="P-DET-34" classname="no_alert">
+    <failure message="expected=no_alert actual_classification=unexpected_alert">fired=['T1059.003-001']</failure>
+  </testcase>
+  <testcase name="P-DET-35" classname="no_alert">
+  </testcase>
+  <testcase name="P-DET-36" classname="no_alert">
+  </testcase>
+</testsuite>
